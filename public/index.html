@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mongo Scraper</title>
+    <!-- Latest compiled and minified jQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+        <div class="container">
+            <div class="navbar-header">
+                <h1>Mongo Scraper</h1>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li role="presentation" class="active" id="scrape"><button>Scrape Articles!</button></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Heading Row -->
+        <div class="row text-center">
+            <div class="col-md-12 head">
+               
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-8">
+                <h3><strong>New York Times News</strong></h3>
+                <h4><strong>Click article title to add comment!</strong></h4>
+                <br />
+                    <div id="articles"> </div>
+            </div>
+            <div class="col-md-4">
+                <h3><strong>Comments</strong></h3>
+                    <div id="notes"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

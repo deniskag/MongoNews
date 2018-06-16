@@ -1,0 +1,60 @@
+body {
+            background: url('http://www.myfreetextures.com/wp-content/uploads/2011/06/grungy-rough-old-worn-paper.jpg') no-repeat;
+            background-size: cover;
+            height: 100px;
+            width: 100%;
+        }
+
+button {
+    background-color: black;
+    color: white;
+}
+        
+        h1 {
+            color: white;
+            font-family: Georgia, Times, "Times New Roman", serif;
+            font-size: 45px;
+            margin-right: 500 px;
+        }
+        
+        li {
+            font-family: Georgia, Times, "Times New Roman", serif;
+            font-size: 26px;
+        }
+        
+        #scrape {
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+        
+        .head {
+            margin: 100px 20px 35px 20px;
+        }
+        
+        h3 {
+            font-size: 30px;
+            color: black;
+        }
+
+        h4 {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        p {
+          font-size: 20px;  
+        }
+        
+        textarea, input {
+        display: block;
+        width: 100%;
+        background-color: white;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
